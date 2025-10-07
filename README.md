@@ -1,6 +1,3 @@
-# automotive-pricing-ml-analysis
-Machine learning project predicting vehicle retail prices using multiple linear regression. Analyzes 389 cars to identify key pricing factors, with feature engineering and strategic business insights. Achieved 74% R² with actionable recommendations for automotive pricing strategy.
-
 # 🚗 Automotive Pricing Analysis with Machine Learning
 
 A comprehensive machine learning project that predicts vehicle retail prices using multiple linear regression. This analysis examines 389 vehicles to identify the key factors that drive pricing decisions in the automotive market.
@@ -24,7 +21,9 @@ This project demonstrates end-to-end machine learning workflow including:
 
 📊 Model Performance
 MetricInitial ModelImproved ModelR² Score0.7250.739Adjusted R²0.7190.735Features96
-🎓 Key Variables
+
+**Key Variables**
+
 Dependent Variable:
 
 Retail Price ($)
@@ -39,9 +38,9 @@ Derived features (Engine², HP×Sports interaction)
 
 💡 Business Recommendations
 
-Focus on horsepower optimization - delivers highest pricing leverage
+Focus on horsepower optimization - delivers the highest pricing leverage
 Target 250-350 HP range - optimal value without diminishing returns
-Premium positioning for sports segment - $21K+ price advantage
+Premium positioning for the sports segment - $21K+ price advantage
 Data enrichment opportunities - add luxury features & regional data for 8-13% improvement
 
 📝 Dataset
