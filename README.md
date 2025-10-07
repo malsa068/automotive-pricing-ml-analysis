@@ -22,4 +22,36 @@ This project demonstrates end-to-end machine learning workflow including:
 - **Engine size** shows non-linear effects on pricing
 - Performance features deliver 3x higher ROI than fuel efficiency
 
-## 📁 Project Structure
+📊 Model Performance
+MetricInitial ModelImproved ModelR² Score0.7250.739Adjusted R²0.7190.735Features96
+🎓 Key Variables
+Dependent Variable:
+
+Retail Price ($)
+
+Independent Variables:
+
+Engine displacement (L)
+Horsepower (HP)
+City MPG
+Vehicle class (Sedan, SUV, Sports, etc.)
+Derived features (Engine², HP×Sports interaction)
+
+💡 Business Recommendations
+
+Focus on horsepower optimization - delivers highest pricing leverage
+Target 250-350 HP range - optimal value without diminishing returns
+Premium positioning for sports segment - $21K+ price advantage
+Data enrichment opportunities - add luxury features & regional data for 8-13% improvement
+
+📝 Dataset
+The analysis uses automotive sales data with the following features:
+
+Retail: Vehicle retail price
+Dealer: Dealer cost
+Engine: Engine displacement in liters
+Cylinders: Number of cylinders
+Horsepower: Engine horsepower
+CityMPG: City fuel efficiency
+HighwayMPG: Highway fuel efficiency
+Class: Vehicle category (Sedan, SUV, Sports, Wagon, Minivan)
